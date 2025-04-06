@@ -1,0 +1,50 @@
+/* PopularCoursePage.module.css */
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+   }
+   
+   @media (max-width: 768px) {
+    .gridContainer {
+       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+   }
+   
+   @media (max-width: 480px) {
+    .gridContainer {
+       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+   }
+
+   .course-card {
+  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+.course-card:hover {
+  transform: scale(1.05)!important;
+  outline: 2px solid black; /* Enlarge the card by 5% on hover */
+}
+
+.courseCard h2 {
+   color: rgb(16, 16, 69);
+   text-decoration: underline;
+ }
+ 
+ .courseCard p strong {
+   color: green;
+ }
+ 
+ .courseCard p:nth-of-type(2) strong {
+   color: rgb(255, 41, 41);
+   background-color: rgb(252, 234, 227);
+   padding: 2px;
+   border-radius: 8px;
+ }
+ 
+ .courseCard p:last-child strong {
+   color: purple;
+ }
+   

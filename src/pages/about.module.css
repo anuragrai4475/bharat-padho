@@ -1,0 +1,39 @@
+/* Hero.module.css */
+.hero {
+    background-color: #eceaea;
+    padding: 20px;
+    text-align: center;
+    color: rgb(121, 66, 0);
+   }
+   
+   .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+   }
+   
+   .services {
+    padding: 20px;
+    background-color: #fafaf9;
+    color: rgb(71, 29, 1);
+    align-items: center;
+   }
+   
+   .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   
+   .service-item {
+    flex: 1 0 30%;
+    margin-bottom: 20px;
+   }
+
+   .button1 {background-color: #04AA6D;}
+   
+   @media (max-width: 768px) {
+    .service-item {
+       flex: 1 0 100%;
+    }
+   }
+   

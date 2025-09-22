@@ -15,11 +15,9 @@ const Hero: React.FC = () => {
           <h4>Phone: +(91)7058252160</h4>
           <h2>Rohit Singh (Co-Founder )</h2>
           <h4>Email: rohitkumarsingh5361@gmail.com</h4>
-          <h4>Phone: +(91)7004317218</h4>
+          
           <h4>Office Address :- paramount golf forest zeta 1 , Greater Noida</h4>
-          <a href="https://api.whatsapp.com/send?phone=917004317218">
-      <button className={styles.button1}>Whatsapp us </button>
-</a>
+        
 
         </div>
       </section>
